@@ -13,7 +13,8 @@ class HomePage extends Component {
           <br></br>
           <li ><span><Link to="/aboutPage">About</Link></span></li>
           <br></br>
-          <li ><span><Link to="/blogPage">Blog</Link></span></li>
+          <li ><a href="https://medium.com/@rushali"><span>Blog</span></a></li>
+
           <h2 id="rushali">RUSHALI</h2>
         </ul>
 

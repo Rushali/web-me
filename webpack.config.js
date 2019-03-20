@@ -13,20 +13,25 @@ module.exports = {
     rules : [
       {
         test: /\.css$/,
-        loader: 'style-loader!css-loader'
+        loader: 'style-loader!css-loader',
+        options: {
+          modules: true
+        },
       },
       {
         test: /\.png$/,
         loader: 'url-loader?limit=100000&minetype=image/png'
       },
       {
-        test: /\.jpg/,
-        loader: 'file-loader'
+        test: /\.(png|jpg|gif)$/,
+        loader: 'file-loader',
+        options: {
+        },
       },
       {
         test : /\.jsx?/,
         include : SRC_DIR,
-        loader : 'babel-loader',      
+        loader : 'babel-loader',
         query: {
           presets: ['react', 'es2015']
        }
