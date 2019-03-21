@@ -5,6 +5,8 @@ import HomePage from './pages/homePage.js';
 import NavBar from './headerComponent/navBar.js';
 import Footer from './footerComponent/footer.js';
 import aboutPage from './pages/aboutPage.js';
+import projectsPage from './pages/projectsPage.js';
+
 
 
 class App extends Component {
@@ -12,9 +14,9 @@ class App extends Component {
     return (
       <Router>
         <div>
-
           <Route name="home" exact path="/" component={HomePage} />
           <Route name="aboutPage" path="/aboutPage" component={aboutPage} />
+          <Route name="projectsPage" path="/projectsPage" component={projectsPage} />
 
         </div>
       </Router>

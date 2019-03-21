@@ -21,20 +21,19 @@ body {
   color: #333;
 }
 
-.container {
-  /* display: table-cell; */
-  vertical-align: middle;
-  text-align: center;
-  width: 600px;
-}
-
 a {
   color: #333;
   text-decoration: none !important;
 }
 
 p {
-  display: inline-block;
+  display: -webkit-box;
+  text-align: left;
+  padding: 20px;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-bottom: 20px;
+  padding-left: 20px;
 }
 
 ul {
@@ -88,6 +87,50 @@ span:hover:after {
   transition: 0s;
 }
 
+#proimage {
+  float : left;
+  width: 300px;
+  height : 200px;
+  object-fit: cover;
+}
+
+#card {
+  overflow:auto;
+  box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+  transition: 0.3s;
+  width: 90%;
+  padding: 20px ;
+}
+
+#card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+
+
+
+#home {
+  border-left: 2px solid black;
+  height: 500px;
+  position: absolute;
+  left: 50%;
+  margin-left: -3px;
+  top: 10%;
+}
+
+#rushali {
+    text-align: right;
+    margin-top: 220%;
+    position: initial;
+  }
+
+#projectsPage {
+     padding-top: 50px;
+      padding-right: 30px;
+      padding-bottom: 50px;
+      padding-left: 80px;
+  }
+
 
 #headerButtons {
   margin: 10px;
@@ -123,7 +166,7 @@ footer {
   height: 50px;
   background-color: white;
   color: black;
-  position: fixed;
+
   bottom: 0;
   margin: 0px auto;
   text-align: center;
