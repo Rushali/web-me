@@ -13,8 +13,9 @@ class projectsPage extends Component {
       <div id="projectsPage">
   <NavBar/>
         <h1>Projects</h1>
+
           <section  id="card">
-            <Link to="/projectsPage">
+            <a href="https://rushali.space/#/nyc-beats/">
             <h4>NYC Beats</h4>
             <img id="proimage" src={require('../../../dist/assets/nyc1.jpg')}></img>
             <p>NYC Beats is a web art experiment about New York City’s iconic subway musicians.
@@ -22,8 +23,9 @@ class projectsPage extends Component {
             <br></br>
               Digital Ocean, MapboxGL, Three.js, Google Firebase, Node.js, jQuery <br></br>
               </p>
-            </Link>
+            </a>
           </section>
+
           <section id="card">
             <Link to="/projectsPage">
             <h4>Silent Words</h4>
@@ -35,6 +37,7 @@ class projectsPage extends Component {
               Node.js, Twilio API, Python, Flask <br></br></p>
             </Link>
           </section>
+
           <section id="card">
             <a href="http://humansoftomorrow.solutions/">
             <h4>Humans of Tomorrow</h4>
@@ -46,14 +49,26 @@ class projectsPage extends Component {
               HTML, CSS, jQuery, GH-Pages <br></br>
             </p></a>
           </section>
+
           <section id="card">
+            <a href="">
             <h4> Fangirl Twitter Bot</h4>
             <img id="proimage" src={require('../../../dist/assets/bot1.jpg')}></img>
             <p>The twitter bot goes through an array of phrases most associated with Indian stand up comedian
               Kanan Gill and pretends to be his fangirl.
               <br></br>
               <br></br>
-              Node.js, twit  <br></br> </p>
+              Node.js, twit  <br></br> </p></a>
+          </section>
+
+          <section id="card">
+                <a href="https://github.com/Rushali/SaffronBrowser">
+            <h4>Saffron Browser</h4>
+            <img id="proimage" src={require('../../../dist/assets/saf1.gif')}></img>
+            <p>A chrome extension to calm certain saffron urges digitally in the poetic hope of curbing real world chaos
+              <br></br>
+              <br></br>
+              Chrome extension, Javascript  <br></br> </p></a>
           </section>
           <br></br>
   <Footer/>
