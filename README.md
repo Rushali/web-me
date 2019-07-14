@@ -15,4 +15,4 @@ npm install nodemon -g
 npm install
 ```
 
-Built with initial instructions from @preda's blog [blog post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
+Built with initial instructions from @preda's [blog post](https://medium.com/@Preda/getting-started-on-building-a-personal-website-with-react-b44ee93b1710)
